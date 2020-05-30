@@ -1,5 +1,3 @@
-# School-Event-Manager-linked-list-
-School Event Manager For the purpose of practicing with linked-list
 /* * * * * * * * * * * * * * * * * 
  * Name: Hanibal Alazar          *
  * Project: list program         *
@@ -84,7 +82,8 @@ event_t * add_events(event_t* head_list){
             temp_ptr->next = new_event_node;
         }
     }
-    /*This assigns the list created to head file so that 
+    /*
+    This assigns the list created to head file so that 
        it can be return to main and accessed by other function 
     */
     head_list = temp_ptr;
